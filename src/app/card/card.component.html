@@ -1,0 +1,5 @@
+<div class="card-container">
+    <img *ngIf="cardInfo && cardInfo.image" src="{{cardInfo.image}}">
+    <img *ngIf="!cardInfo" src="../../assets/images/playing-cards/card_back.png">
+</div>
+

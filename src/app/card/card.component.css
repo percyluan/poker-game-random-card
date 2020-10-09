@@ -1,0 +1,8 @@
+.card-container {
+    margin: 10px;
+}
+
+.card-container img {
+    /* width: calc(25vw); */
+    height: -webkit-fill-available;
+}

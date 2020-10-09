@@ -1,0 +1,11 @@
+<div class="board">
+    <div class="operation-section">
+        <button (click)="deal()" class="button">发牌</button>
+        <button (click)="flush()" class="button">洗牌</button>
+        <span class="button">剩余牌数: {{cardLeft}}</span>
+    </div>
+    <div class="card-section">
+        <app-card [cardInfo]="dealtCard"></app-card>
+    </div>
+    
+  </div>

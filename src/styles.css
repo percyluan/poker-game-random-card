@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+	font-family: "Coffee Tin";
+	src: url("./assets/fonts/CoffeeTinInitials.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Poker";
+	src: url("./assets/fonts/Poker.otf") format("opentype");
+}

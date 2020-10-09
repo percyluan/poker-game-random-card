@@ -1,0 +1,11 @@
+import { Component } from '@angular/core';
+import { cards, Deck } from './modal/card-info';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  title = 'poker-game';
+}
